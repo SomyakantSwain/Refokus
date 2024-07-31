@@ -4,7 +4,7 @@ import React, { useState } from "react";
 import { IoIosReturnRight } from "react-icons/io";
 import Arrow from "./Arrow";
 
-const Button = ({ title = "Get Started" }) => {
+const Button = ({ title = "Start Project" }) => {
   const [isHovered, setIsHovered] = useState(true);
   return (
     <button
